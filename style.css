@@ -47,7 +47,8 @@ form input {
     margin: 2rem;
     border: 2px solid purple;
     background-color: palegoldenrod;
-
+    border-radius: 1rem;
+    padding: 5px;
 }
 
 .select-container img {
@@ -57,6 +58,7 @@ form input {
 .select-container {
     display: flex;
     justify-content: center;
+    border-radius: 1rem;
 }
 
 .msg {
@@ -70,7 +72,7 @@ form input {
 }
 
 .btn {
-    border-radius: 0.75rem;
+    border-radius: 0.80rem;
     background-color: yellow;
     color: black;
     border-color: black;
@@ -78,4 +80,8 @@ form input {
     margin-left: 75px;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+select{
+    border-radius: 0.5rem;
 }

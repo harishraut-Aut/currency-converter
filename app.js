@@ -70,7 +70,7 @@ submitBtn.addEventListener("click", function (evt) {
         const msgToDisplay = `${orgAmount.value} ${fromCurr.value} = ${exhangeRate} ${toCurr.value}`;
         msg.innerHTML = `<b> ${msgToDisplay} </b>`;
     }).catch(function (error) {
-        console.log(error);
+        throw new error(error);
     });
 });
 
